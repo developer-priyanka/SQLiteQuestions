@@ -1,0 +1,14 @@
+a.What is the use of SQLitel Open helper class in SQLite?
+ans.SQLite open helper class provide the functionality to use the SQLite 
+Database for storing data in Android Application.It helps to open and create 
+database using OnCreate and OnUpgrade method and do the CRUD operation.
+
+b.What is the use of OnUpgrade function in SQLiteOpenHelper class?
+ans.OnUpgade methods helps to maintain the database version.It usually calls in 
+the application when database schema has changed for ex.Table defiation has 
+chaged or some constrained has added to the database.
+
+c.How to show SQLite database table information in android application what is 
+the best way to do it?
+
+ans.We can show the table information using table layout with cursor in android application.
